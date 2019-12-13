@@ -1,0 +1,11 @@
+{
+  "name": "silver-octo-barnacle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://eldwis@github.com/eldwis/silver-octo-barnacle",
+  "author": "eldwis <sngminkim@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

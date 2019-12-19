@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{Dtc0:function(n,t,o){"use strict";o.r(t);var e=o("q1tI"),u=o.n(e).a.createElement;t.default=function(){return u("h1",null,"Hello, world!")}},H0SL:function(n,t,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/",function(){return o("Dtc0")}])}},[["H0SL",0,1]]]);

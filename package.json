@@ -2,10 +2,34 @@
   "name": "silver-octo-barnacle",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://eldwis@github.com/eldwis/silver-octo-barnacle",
-  "author": "eldwis <sngminkim@gmail.com>",
-  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "rimraf node_modules/.cache out && next build && next export && nodetouch out/.nojekyll && gh-pages -d out"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.16",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.3.0",
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.16.4",
+    "rimraf": "^3.0.0",
+    "touch": "^3.1.0"
+  },
   "dependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@types/node": "^12.12.21",
+    "next": "^9.1.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
